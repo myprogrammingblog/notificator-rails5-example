@@ -14,7 +14,9 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
-  config.web_socket_server_url = "wss://notificator-rails5.herokuapp.com/cable"
+  config.web_socket_server_url = "wss://notificator-rails5-example.herokuapp.com/cable"
+  # Action Cable endpoint configuration
+  config.action_cable.allowed_request_origins = [ 'https://notificator-rails5-example.herokuapp.com', /http:\/\/notificator-rails5-example.herokuapp.com.*/ ]
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
