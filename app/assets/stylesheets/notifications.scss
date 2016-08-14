@@ -107,3 +107,35 @@ ul #notificationList
   font-size: 12px;
   border-top: 1px solid #dddddd;
 }
+
+// FOR DEMO
+#cta {
+  position: fixed;
+  top: 30%;
+  left: 45%;
+  z-index: -1;
+}
+
+p {
+  color: #aba3a3;
+  width: 300px;
+  font-size: medium;
+  margin-left: 7px;
+}
+
+
+#cta input[type=submit],button {
+  border: 2px solid;
+  border-radius: 25px;
+  color: #d44e03;
+  background-color: #ffffff;
+  font-size:medium;
+  height: 50px;
+  width: 200px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#cta input[type=submit]:hover {
+  background-color: #d44e03;
+  color: #ffffff;
+}

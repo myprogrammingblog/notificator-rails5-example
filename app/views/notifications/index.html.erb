@@ -1,1 +1,7 @@
 <%= render "notification_center", notifications: @notifications %>
+
+<!-- For DEMO -->
+<div id="cta">
+  <button  onclick="window.open('<%= new_message_url %>')" >ADD NEW MESSAGE</button>
+  <p> Click button to add new comment. Keep 2 browser windows side by side, to watch how notification are updated live.</p>
+</div>
